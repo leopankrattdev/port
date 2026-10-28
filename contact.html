@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us — Hurghada Porto View</title>
+
+  <meta name="description" content="Get in touch with Hurghada Porto View. Contact our 24-hour front desk via phone, WhatsApp, or email for reservations and inquiries."/>
+
+  <!-- Fonts: Cormorant Garamond & Karla -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Karla:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body class="bg-[#FBF8F3] text-[#1E232A] font-body antialiased">
+
+ <!-- Header -->
+  <header class="absolute inset-x-0 top-0 z-30 text-deep-foreground">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
+      <a class="flex items-center gap-3" href="index.html">
+        <span class="font-display text-2xl tracking-wide">
+          Porto <em>View</em>
+        </span>
+      </a>
+      
+      <nav class="hidden gap-9 text-xs uppercase tracking-[0.25em] md:flex">
+        <a class="hover:text-accent transition-colors" href="about.html">About</a>
+        <a class="hover:text-accent transition-colors" href="rooms.html">Rooms</a>
+        <a class="hover:text-accent transition-colors" href="gallery.html">Gallery</a>
+        <a class="text-accent border-b border-accent pb-0.5" href="contact.html">Contact</a>
+      </nav>
+      
+      <div class="flex items-center gap-3">
+          <!-- Кнопка открытия бронирования -->
+<button type="button" class="booking-open booking-open2">
+  Book
+</button>
+        
+      <!-- Кнопка мобильного меню (бургер) -->
+        <button id="mobileMenuBtn" aria-label="Menu" class="md:hidden text-deep-foreground p-1 focus:outline-none">
+          <svg id="menuIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 5h16"></path>
+            <path d="M4 12h16"></path>
+            <path d="M4 19h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Мобильное выпадающее меню -->
+    <div id="mobileMenu" class="hidden absolute top-full left-0 w-full bg-[#07111E] text-white border-t border-white/10 px-6 py-8 flex flex-col gap-6 text-xs uppercase tracking-[0.25em] shadow-xl md:hidden">
+      <a href="index.html" class="hover:text-[#C88A48] transition-colors">Home</a>
+      <a href="about.html" class="hover:text-[#C88A48] transition-colors">About</a>
+      <a href="rooms.html" class="hover:text-[#C88A48] transition-colors">Rooms</a>
+      <a href="gallery.html" class="hover:text-[#C88A48] transition-colors">Gallery</a>
+      <a href="contact.html" class="text-[#C88A48]">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Hero Banner -->
+    <section class="relative h-[60svh] min-h-[420px] overflow-hidden">
+      <img src="./uploads/big_photo.jpeg" alt="Red Sea beach view" class="absolute inset-0 h-full w-full object-cover"/>
+      <div class="absolute inset-0 bg-veil"></div>
+      
+      <div class="relative z-10 mx-auto flex h-full max-w-7xl flex-col justify-end px-6 pb-16 text-deep-foreground">
+        <p class="rise mb-4 text-xs uppercase tracking-[0.4em]">Contact</p>
+        <h1 class="rise font-display text-5xl leading-tight md:text-7xl">
+          Let's plan <em>your stay</em>
+        </h1>
+      </div>
+    </section>
+
+    <!-- Contact & Map Section -->
+    <section class="mx-auto max-w-7xl px-6 py-24 md:py-32">
+      <div class="grid gap-16 lg:grid-cols-12 lg:items-start">
+        
+        <!-- Left Column: Intro text and Contact List with Dividers -->
+        <div class="lg:col-span-6 flex flex-col justify-between">
+          <p class="text-sm md:text-base font-light text-muted-foreground leading-relaxed mb-12 max-w-lg">
+            Have questions or ready to book your stay? Our 24‑hour front desk is here to assist, ensuring your beachfront getaway is seamless and unforgettable.
+          </p>
+
+          <div class="divide-y divide-border border-t border-b border-border">
+            
+            <!-- Call Item -->
+            <a href="tel:+201103886444" class="flex items-center gap-6 py-6 group transition hover:opacity-75">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-muted-foreground shrink-0">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <div>
+                <p class="text-[10px] uppercase tracking-[0.25em] text-muted-foreground mb-1">Call</p>
+                <p class="font-display text-2xl md:text-3xl text-primary">+20 110 388 6444</p>
+              </div>
+            </a>
+
+            <!-- WhatsApp Item -->
+            <a href="https://wa.me/201103886444" target="_blank" rel="noreferrer" class="flex items-center gap-6 py-6 group transition hover:opacity-75">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-muted-foreground shrink-0">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+              </svg>
+              <div>
+                <p class="text-[10px] uppercase tracking-[0.25em] text-muted-foreground mb-1">WhatsApp</p>
+                <p class="font-display text-2xl md:text-3xl text-primary">Message us</p>
+              </div>
+            </a>
+
+            <!-- Email Item -->
+            <a href="mailto:info@hurghadaportoview.com" target="_blank" rel="noreferrer" class="flex items-center gap-6 py-6 group transition hover:opacity-75">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-muted-foreground shrink-0">
+                <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+              </svg>
+              <div>
+                <p class="text-[10px] uppercase tracking-[0.25em] text-muted-foreground mb-1">Email</p>
+                <p class="font-display text-xl md:text-2xl text-primary break-all">info@hurghadaportoview.com</p>
+              </div>
+            </a>
+
+            <!-- Map Location Item -->
+            <a href="https://www.google.com/maps/place/Hurghada+Porto+View/@27.1845626,33.8300817,17z" target="_blank" rel="noreferrer" class="flex items-center gap-6 py-6 group transition hover:opacity-75">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-muted-foreground shrink-0">
+                <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <div>
+                <p class="text-[10px] uppercase tracking-[0.25em] text-muted-foreground mb-1">Find us</p>
+                <p class="font-display text-2xl md:text-3xl text-primary">Open in Google Maps</p>
+              </div>
+            </a>
+
+          </div>
+        </div>
+
+        <!-- Right Column: Interactive Embedded Map -->
+        <div class="lg:col-span-6 w-full h-[450px] md:h-[520px] rounded-sm overflow-hidden shadow-sm border border-border bg-[#e5e3df] relative">
+          <iframe 
+            title="Hurghada Porto View Location Map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.852174312678!2d33.8300817!3d27.1845626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjdoMTAnNTQuNCJOIDMzwrA0OSc0OC4zIkU!5e0!3m2!1sen!2seg!4v1650000000000!5m2!1sen!2seg" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Banner CTA -->
+    <section class="bg-secondary">
+      <div class="mx-auto flex max-w-7xl flex-col items-start justify-between gap-8 px-6 py-20 md:flex-row md:items-center">
+        <h2 class="font-display text-4xl md:text-6xl">
+          Ready for the <em class="text-primary">Red Sea?</em>
+        </h2>
+  <!-- Кнопка открытия бронирования -->
+<button type="button" class="booking-open">
+  Book your stay
+</button>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-deep text-deep-foreground">
+    <div class="mx-auto grid max-w-7xl gap-12 px-6 py-20 md:grid-cols-3">
+      <div>
+        <p class="font-display text-3xl">
+          Porto <em>View</em>
+        </p>
+        <p class="mt-3 max-w-xs text-sm font-light opacity-70">The best place to relax in Hurghada's coastal paradise.</p>
+      </div>
+
+      <div class="flex flex-col gap-3 text-sm">
+        <a href="tel:+201103886444" class="flex items-center gap-3 hover:text-accent transition-colors">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone h-4 w-4">
+            <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path>
+          </svg>
+          +20 110 388 6444
+        </a>
+        <a href="mailto:info@hurghadaportoview.com" class="flex items-center gap-3 hover:text-accent transition-colors">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail h-4 w-4">
+            <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+            <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+          </svg>
+          info@hurghadaportoview.com
+        </a>
+        <a href="https://www.google.com/maps/place/Hurghada+Porto+View/@27.1845626,33.8300817,17z" target="_blank" rel="noreferrer" class="flex items-center gap-3 hover:text-accent transition-colors">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin h-4 w-4">
+            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+          Hurghada, Porto View
+        </a>
+      </div>
+
+      <nav class="grid grid-cols-2 gap-3 text-xs uppercase tracking-[0.25em] opacity-80">
+        <a class="hover:text-accent transition-colors" href="./index.html">Home</a>
+        <a class="hover:text-accent transition-colors" href="./about.html">About</a>
+        <a class="hover:text-accent transition-colors" href="./rooms.html">Rooms</a>
+        <a class="hover:text-accent transition-colors" href="./gallery.html">Gallery</a>
+        <a class="hover:text-accent transition-colors" href="./contact.html">Contact</a>
+      </nav>
+    </div>
+
+    <div class="mx-auto max-w-7xl border-t border-deep-foreground/15 px-6 py-6 text-xs uppercase tracking-[0.25em] opacity-50">
+      © 2026 Hurghada Porto View
+    </div>
+  </footer>
+
+
+<!-- Попап бронирования -->
+<div class="booking-modal" id="bookingModal"
+     aria-hidden="true">
+  <div class="booking-overlay" data-booking-close></div>
+
+  <section class="booking-dialog"
+           role="dialog"
+           aria-modal="true"
+           aria-labelledby="bookingTitle">
+
+    <button class="booking-close" type="button"
+            aria-label="Закрыть окно"
+            data-booking-close>×</button>
+
+    
+<div class="booking-eyebrow">HURGHADA · PORTO VIEW</div>
+
+<h2 id="bookingTitle">Book Your Stay</h2>
+
+<p class="booking-description">
+  Select your travel dates and room preferences.
+  We’ll check availability and get back to you.
+</p>
+
+<form id="bookingForm" class="booking-form">
+  <div class="booking-field">
+    <label for="bookingCheckin">Check-in</label>
+    <input type="date" id="bookingCheckin" required>
+  </div>
+
+  <div class="booking-field">
+    <label for="bookingCheckout">Check-out</label>
+    <input type="date" id="bookingCheckout" required>
+  </div>
+
+  <div class="booking-field booking-field-full">
+    <label for="bookingRoom">Room Type</label>
+    <select id="bookingRoom" required>
+      <option value="">Select a room type</option>
+      <option>Standard</option>
+      <option>Deluxe</option>
+      <option>Suite</option>
+      <option>Not sure yet</option>
+    </select>
+  </div>
+
+  <div class="booking-field">
+    <label for="bookingRooms">Number of Rooms</label>
+    <select id="bookingRooms">
+      <option selected>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+    </select>
+  </div>
+
+  <div class="booking-field">
+    <label for="bookingAdults">Adults</label>
+    <select id="bookingAdults">
+      <option>1</option>
+      <option selected>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+      <option>6</option>
+    </select>
+  </div>
+
+  <div class="booking-field booking-field-full">
+    <label for="bookingChildren">Children</label>
+    <select id="bookingChildren">
+      <option value="0">No children</option>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+    </select>
+  </div>
+
+  <button class="booking-submit" type="submit">
+    Check Availability
+    <span aria-hidden="true">→</span>
+  </button>
+
+  <p class="booking-note">
+    Your request will open in WhatsApp. Your reservation is subject
+    to availability confirmation.
+  </p>
+</form>
+
+  </section>
+</div>
+
+<script>
+(() => {
+  const modal = document.getElementById('bookingModal');
+  const openButtons = document.querySelectorAll('.booking-open');
+  const form = document.getElementById('bookingForm');
+  const checkin = document.getElementById('bookingCheckin');
+  const checkout = document.getElementById('bookingCheckout');
+
+  if (!modal || !openButtons.length || !form) return;
+
+  const today = new Date();
+  const localDate = new Date(
+    today.getTime() - today.getTimezoneOffset() * 60000
+  ).toISOString().slice(0, 10);
+
+  checkin.min = localDate;
+  checkout.min = localDate;
+
+  checkin.addEventListener('change', () => {
+    checkout.min = checkin.value || localDate;
+
+    if (checkout.value && checkout.value <= checkin.value) {
+      checkout.value = '';
+    }
+  });
+let lastActiveButton = null;
+
+  function openModal() {
+    lastActiveButton = document.activeElement;
+    modal.classList.add('is-open');
+    modal.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('booking-modal-active');
+    modal.querySelector('.booking-close').focus();
+  }
+
+  function closeModal() {
+    modal.classList.remove('is-open');
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('booking-modal-active');
+    if (lastActiveButton) lastActiveButton.focus();
+  }
+
+  openButtons.forEach(button => {
+  button.addEventListener('click', openModal);
+});
+
+  modal.querySelectorAll('[data-booking-close]').forEach(button => {
+    button.addEventListener('click', closeModal);
+  });
+
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && modal.classList.contains('is-open')) {
+      closeModal();
+    }
+  });
+
+  form.addEventListener('submit', event => {
+    event.preventDefault();
+
+    if (checkout.value <= checkin.value) {
+      checkout.setCustomValidity('Дата выезда должна быть позже даты заезда.');
+      checkout.reportValidity();
+      checkout.setCustomValidity('');
+      return;
+    }
+
+    const message = [
+      'Hello! I would like to check room availability.',
+      'Check-in: ' + checkin.value,
+      'Check-out: ' + checkout.value,
+      'Room type: ' + document.getElementById('bookingRoom').value,
+      'Rooms: ' + document.getElementById('bookingRooms').value,
+      'Adults: ' + document.getElementById('bookingAdults').value,
+      'Children: ' + document.getElementById('bookingChildren').value
+    ].join('\n');
+
+    // Используется номер WhatsApp из предыдущей версии.
+    const whatsappUrl =
+      'https://wa.me/201103886444?text=' + encodeURIComponent(message);
+
+    window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+  });
+})();
+</script>
+<!-- Скрипт для работы мобильного бургер-меню -->
+  <script>
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    if (mobileMenuBtn && mobileMenu) {
+      mobileMenuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+
+      // Закрывать меню при клике на любую ссылку внутри него
+      mobileMenu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          mobileMenu.classList.add('hidden');
+        });
+      });
+    }
+  </script>
+</body>
+</html>
